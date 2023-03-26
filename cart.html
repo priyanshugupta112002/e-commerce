@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" async></script>
+  </head>
+
+  <body>
+    <section id="header">
+      <div class="logo">
+        <a href="#"><img src="./images/logo.png" alt="" /></a>
+      </div>
+      <div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a  href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a class="active"  href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section id="AboutPage">
+      <h2>#Cart</h2>
+      <p>Add your coupon code & SAVE upto 70% !</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table id="myTable" width="100%">
+          <thead>
+            <tr>
+              <td>Remove</td>
+              <td>Image</td>
+              <td>Product</td>
+              <td>Price</td>
+              <td>Quantity</td>
+              <td>Subtotal</td>
+            </tr>
+          </thead>
+          <tbody class="cart-item">
+            <tr class="cart-row">
+              <td><button class="remove-item">Remove</button></td>
+              <td><img src="./images/f1.jpg" alt=""></td>
+              <td>Cartoon T-Shirt</td>
+              <td class="cart-price"> &#8377 150</td>
+              <td><input class="quantity" placeholder="Enter quantity" type="number" value="1"></td>
+              <td class="sub-total">&#8377 150</td>
+            </tr>
+            <tr class="cart-row">
+              <td><button class="remove-item">Remove</button></td>
+              <td><img src="./images/f1.jpg" alt=""></td>
+              <td>Cartoon T-Shirt</td>
+              <td class="cart-price"> &#8377 160</td>
+              <td><input class="quantity" placeholder="Enter quantity" type="number" value="2"></td>
+              <td class="sub-total">&#8377 320</td>
+            </tr>
+            <tr class="cart-row">
+              <td><button class="remove-item">Remove</button></td>
+              <td><img src="./images/f1.jpg" alt=""></td>
+              <td>Cartoon T-Shirt</td>
+              <td class="cart-price"> &#8377 170</td>
+              <td><input class="quantity" placeholder="Enter quantity" type="number" value="3"></td>
+              <td class="sub-total">&#8377 510</td>
+            </tr>
+
+          </tbody>
+            
+        </table>
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <dir id="coupon">
+        <h3>coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter yout name">
+          <button class="normal">Apply now</button>
+        </div>
+      </dir>
+      <dir id="subtotal">
+        <h3>cart total</h3>
+        <table>
+          <tr>
+            <td>cart total</td>
+            <td class="cart-total"> &#8377 980</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong class="cart-total"> &#8377 980</strong></td>
+          </tr>
+
+
+
+        </table>
+        <button class="normal">Proceed to checkout</button>
+
+      </dir>
+
+
+    </section>
+
+    <section id="footer">
+      <div class="Footer-Content">
+        <div>
+          <img src="./images/logo.png" alt="" />
+          <h4>Contact</h4>
+          <p>
+            <strong>Address</strong>:E-146/1 Kamla Nagar Agra,Uttra Pradesh
+            India
+          </p>
+          <p><strong>Phone</strong>:+91 8791616290</p>
+          <p><strong>Hours</strong>:100:00-18:00 Mon-Sat</p>
+          <h4>follow US</h4>
+          <div class="follow">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-twitter-square"></i>
+          </div>
+        </div>
+
+        <div>
+          <h4>About Us</h4>
+          <p>About</p>
+          <p>Delivery Information</p>
+          <p>Privacy & Conditions</p>
+          <p>Contact US</p>
+        </div>
+
+        <div>
+          <h4>My Account</h4>
+          <p>Sign In</p>
+          <p>View Cart</p>
+          <p>My Wishlist</p>
+          <p>Track My Order</p>
+          <p>Help</p>
+        </div>
+
+        <div>
+          <h4>Install App</h4>
+          <p>From App Store or Google Pay</p>
+          <div>
+            <img src="./images/play.jpg" alt="" />
+            <img src="./images/app.jpg" alt="" />
+          </div>
+          <p>Secures Payment Gateways</p>
+          <img src="./images/pay.png" alt="" />
+        </div>
+      </div>
+      <p class="credit">10 jan 2023 Priyanshu Gupya have copyrights</p>
+    </section>
+
+
+  </body>
+</html>
